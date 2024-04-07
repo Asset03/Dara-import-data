@@ -35,7 +35,7 @@ function App() {
     formData.append('image', image)
 
     try {
-      const response = await axios.post('http://68.183.59.91/word', formData, {
+      const response = await axios.post('http://64.23.249.67/word', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

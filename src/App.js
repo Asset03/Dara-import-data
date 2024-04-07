@@ -35,7 +35,7 @@ function App() {
     formData.append('image', image)
 
     try {
-      const response = await axios.post('http://localhost:5100/word', formData, {
+      const response = await axios.post('https://dara-backend.onrender.com/word', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
